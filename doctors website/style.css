@@ -1,0 +1,47 @@
+body{
+    background-color: aqua;
+    margin: 25px;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 45px;
+    text-align: center;
+    
+}
+
+h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+
+p{
+    font-family: 'Lucida Console', 'Courier New', monospace;
+    font-size: 20px;
+}
+#img1{
+    width: 50%;
+    height: auto;
+}
+
+.img{
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.gallery{
+    padding: 15px;
+    display: inline-block;
+}
+h2{
+    font-family: 'Lucida Console', 'Courier New', monospace;
+    font-size: 30px;
+}
+#navbar {
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+}

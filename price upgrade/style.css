@@ -1,0 +1,32 @@
+body{
+    background-color: bisque;
+
+}
+h1,h3,p{
+    text-align: center;
+}
+.divi{
+    border: 2px solid;
+    height: auto;
+    width: 300px;
+    margin: auto;
+    padding: 10px;
+    background-color: lightcoral;
+}
+#main{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    gap: 30px;
+    
+}
+button{
+    display: block;
+    margin: 15px auto;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#head1{
+    background-color: black;
+    color: aliceblue;
+}

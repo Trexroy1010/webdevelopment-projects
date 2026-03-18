@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Demo doctors website.</title>
+        <!-- <link rel="stylesheet" href="style.css"> -->
+    </head>
+
+    <body>
+        <header>
+            <h1>For appointment, please fill in the following informations: </h1>
+        </header>
+
+
+        <main>
+            <form action="send.php" method="post" enctype="multipart/form-data" style="padding: 15px;">
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required style="width: 50%; height: 30px; font-size: 15px;">
+                <br>
+                <br>
+
+                <label for="phone">Phone : </label>
+                <input type="tel" id="phone" name="phone" required style="width: 50%; height: 30px; font-size: 15px;">
+                <br>
+                <br>
+
+                
+                <label for="date">Date of birth: </label>
+                <input type="date" name="date" id="date" required style="width: 50%; height: 30px; font-size: 15px;">
+                <br>
+                <br>
+
+                <label for="look">What are you looking for: </label>
+                <input type="radio" id="diagnosis" name="look" value="diagnosis" required>
+                <label for="diagnosis">Diagnosis</label>
+                <input type="radio" id="pathology" name="look" value="pathology" required>
+                <label for="pathology">Pathology</label>
+                <input type="radio" id="surgery" name="look" value="surgery" required>
+                <label for="surgery">Surgery</label>
+                <br>
+                <br>
+
+                <label for="previous">Have you visited us previously?</label>
+                <input type="checkbox" id="previous" name="previous">
+                <label for="yes">YES</label>
+                <input type="checkbox" id="previous" name="previous">
+                <label for="no">NO</label>
+                <br>
+                <br>
+
+                <p>If u have visited us:</p>
+                <label for="file">Upload your medical records:</label>
+                <input type="file" id="file" name="file" accept=".pdf,.doc,.docx, .image/*">
+                <br>
+                <br>
+
+                <input type="reset" value="Reset" style="width: 100px; height: 30px; font-size: 15px;">
+                <input type="submit" value="Submit" style="width: 100px; height: 30px; font-size: 15px;">
+            </form>
+        </main>
+    </body>
+
+</html>

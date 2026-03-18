@@ -1,0 +1,12 @@
+h1{
+    font-size: 150px;
+    text-align: center;
+}
+
+#buttons{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+
+}
