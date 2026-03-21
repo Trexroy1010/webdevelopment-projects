@@ -1,0 +1,60 @@
+h1,h2,h3,p{
+    text-align: center;
+}
+
+#choice_buttons{
+    display: flex;
+    justify-content: center;
+}
+
+#form{
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+
+#signupdiv{
+    background-color: aliceblue;
+    color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#username{
+    width: 100px;
+}
+#password{
+    width: 100px;
+}
+
+#bodysignup{
+    margin: 0;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center; /* horizontal center */
+    align-items: center;     /* vertical center */
+
+    background-color: lightblue;
+}
+
+#signupdiv{
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 300px; /* optional, but helps layout */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#login{
+    width: 50px;
+}
